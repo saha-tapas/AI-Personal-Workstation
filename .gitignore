@@ -1,0 +1,20 @@
+node_modules/
+dist/
+build/
+.env
+.env.*
+!.env.example
+*.log
+coverage/
+.DS_Store
+Thumbs.db
+*.local
+
+# Generated workspace files
+workspace/*
+!workspace/.gitkeep
+/%SystemDrive%/
+*.db
+
+/server/src/services/gitService.js.backup
+/server/src/services/gitService.js.before-root-detection-fix
